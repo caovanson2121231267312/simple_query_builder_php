@@ -1,0 +1,23 @@
+{
+    "name": "caoson/simple_query",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Caoson\\SimpleQuery\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "caovanson2121231267312",
+            "email": "son1669063793@gmail.com"
+        }
+    ],
+    "require": {
+        "ludal/mysql-querybuilder": "^0.5.2",
+        "vlucas/phpdotenv": "^5.5",
+        "ext-pdo": "*"
+    },
+    "require-dev": {
+        "symfony/var-dumper": "^6.2"
+    }
+}
